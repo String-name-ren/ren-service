@@ -1,0 +1,23 @@
+server:
+  port: 12700
+  servlet:
+    context-path: /ren
+# profiles Config
+spring:
+  application:
+    name: ren-service
+  # dev:开发配置、test:测试配置、prod: 发布配置;
+  profiles:
+    active: ${config.active:dev}
+
+mybatis:
+  mapper-locations: classpath*:mybatis/**/*Mapper.xml
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
