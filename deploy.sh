@@ -40,4 +40,5 @@ cp $PROJECT_PATH/ren-service/target/ren-service.jar $APP_PATH/
 cd $APP_PATH/
 
 # 启动Tomcat
+echo Application is starting!!!
 nohup java -jar ren-1.0.0-SNAPSHOT.jar > catalina.out 2>&1 &
