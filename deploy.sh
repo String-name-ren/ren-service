@@ -21,6 +21,10 @@ killTomcat()
     fi
 
 }
+
+echo $PROJECT_PATH
+echo $APP_PATH
+
 cd $PROJECT_PATH/ren-service
 mvn clean install
 
