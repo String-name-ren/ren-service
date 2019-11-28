@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/usr/bin/env bash
 #编译+部署项目站点
 
 #需要配置如下参数
