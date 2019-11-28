@@ -165,7 +165,7 @@ public class CodeComponent {
 		//验证码文本字符间距
 		prop.setProperty(Constants.KAPTCHA_TEXTPRODUCER_CHAR_SPACE, textproducerCharSpace);
 		//验证码文本字符长度
-		prop.setProperty(Constants.KAPTCHA_TEXTPRODUCER_CHAR_LENGTH, "5");
+		prop.setProperty(Constants.KAPTCHA_TEXTPRODUCER_CHAR_LENGTH, textproducerCharLength);
 		//验证码文本字体样式
 		prop.setProperty(Constants.KAPTCHA_TEXTPRODUCER_FONT_NAMES, textproducerFontNames);
 		//验证码文本字符大小
