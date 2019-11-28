@@ -89,7 +89,7 @@ public class AuthService {
                 cacheAsyncService.add(token, code, 2);
                 authVo.setToken(token);
             }
-            log.info("打印验证码：{},哈哈哈哈哈",code);
+            log.info("打印验证码：{},嘿嘿嘿嘿嘿",code);
             authVo.setCodeImg(result[0]);
             return RestVo.SUCCESS(authVo);
         } catch (Exception e) {
