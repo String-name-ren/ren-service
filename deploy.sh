@@ -44,4 +44,4 @@ pwd
 
 # 启动Tomcat
 echo Application is starting!!!
-nohup java -jar ren-1.0.0-SNAPSHOT.jar > catalina.out 2>&1 &
+nohup java -jar ren-service.jar > catalina.out 2>&1 &
