@@ -39,7 +39,7 @@ echo "删除原jar包成功"
 cp $PROJECT_PATH/ren-service/target/ren-service.jar $APP_PATH/
 
 cd $APP_PATH/
-ll -a
+pwd
 
 
 # 启动Tomcat
