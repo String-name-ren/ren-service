@@ -33,11 +33,14 @@ killTomcat
 
 # 删除原有工程
 rm -f $APP_PATH/ren-service.jar
+echo "删除原jar包成功"
 
 # 复制新的工程到tomcat上
 cp $PROJECT_PATH/ren-service/target/ren-service.jar $APP_PATH/
 
 cd $APP_PATH/
+ll -a
+
 
 # 启动Tomcat
 echo Application is starting!!!
