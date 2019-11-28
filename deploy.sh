@@ -26,14 +26,17 @@ echo $PROJECT_PATH
 echo $APP_PATH
 
 cd $PROJECT_PATH/ren-service
+pwd
+echo "开始打包............................"
 mvn clean install
 
 # 停tomcat
+echo "杀掉进程............................"
 killTomcat
 
 # 删除原有工程
 rm -f $APP_PATH/ren-service.jar
-echo "删除原jar包成功"
+echo "删除原jar包................."
 
 # 复制新的工程到tomcat上
 cp $PROJECT_PATH/ren-service/target/ren-service.jar $APP_PATH/
@@ -43,5 +46,5 @@ pwd
 
 
 # 启动Tomcat
-echo Application is starting!!!
+echo "启动项目................."
 nohup java -jar ren-service.jar > catalina.out 2>&1 &
