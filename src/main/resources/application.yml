@@ -1,7 +1,7 @@
 server:
   port: 12700
   servlet:
-    context-path: /ren
+    context-path: /
 # profiles Config
 spring:
   application:
