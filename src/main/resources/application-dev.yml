@@ -40,13 +40,13 @@ spring:
   # 缓存配置
   redis:
     # 地址
-    host: 106.14.238.126
+    host: r-uf63qvrxbx4ep1h8ukpd.redis.rds.aliyuncs.com
     # 连接端口
     port: 6379
     # 数据库索引（默认为0）
     database: 11
     # 连接密码（默认为空）
-    password: U&kuLiH#19
+    password: YdBx0EUq8XAHFAf9I4VjFw
     # 连接超时时间（毫秒）
     timeout: 2000
     # 连接池配置
